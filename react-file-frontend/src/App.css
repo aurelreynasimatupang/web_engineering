@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutus {
+  padding: 5px 250px;
+  color: rgb(182, 121, 121);
+  font-family: Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+.box {
+  padding: 15px 75px;
+  margin: 15px 150px;
+  border: white solid 2px;
+  border-radius: 15px;
+}
+
+.aboutus h3 {
+  color: rgb(182, 121, 121);
+}
+
+.aboutus h2 {
+  color: rgb(182, 121, 121);
+}
+
+body {
+  background-color: #151b29;
+  font-family: "Merriweather", serif;
+}
+
+.btnPropPost {
+  background-color: rgb(182, 110, 110);
+  color: rgb(255, 255, 255);
+  width: 60%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 30px;
+  font-size: larger;
+}
+
+.btnPropLat {
+  background-color: rgb(182, 110, 110);
+  color: rgb(255, 255, 255);
+  width: 10%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 350px;
+  font-size: larger;
+}
+
+.center {
+  text-align: center;
+}
+
+.code {
+  font-style: italic;
+  color: white;
+}
+
+.card {
+  border: none;
+  height: 125px;
+  width: 1500px;
+  background-color: rgb(221, 175, 175);
+}
+
+.Footer {
+  color: rgb(226, 158, 158);
+  padding-top: 75px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+.main {
+  background: linear-gradient(rgba(190, 11, 11, 0.5), rgba(56, 56, 56, 0.5)),
+    url(./realEsate.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.main .btn1 {
+  background-color: rgb(182, 110, 110);
+  color: white;
+  width: 150px;
+  outline: none;
+  border: none;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 20px;
+  font-size: larger;
+  display: inline;
+}
+
+.btn1:hover {
+  background-color: tomato;
+  transition: 0.5s;
+}
+
+#form1,
+#form2,
+#form3,
+#form4 {
+  margin-top: 5px;
+}
+
+.gallery {
+  width: 1000px;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+.main .btn2 {
+  position: relative;
+  top: -74px;
+  left: 200px;
+  background-color: rgb(182, 110, 110);
+  color: white;
+  width: 150px;
+  outline: none;
+  border: none;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.btn2:hover {
+  background-color: tomato;
+  transition: 0.5s;
+}
+
+.main select {
+  height: 40px;
+  width: 90%;
+  outline: none;
+  padding: 0 20px;
+}
+
+.main span {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+#map {
+  height: 100%;
+}
+
+.mapPage {
+  margin: 50px 350px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+.propertyPage {
+  color: rgb(179, 131, 131);
+}
+
+.propertyList {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.propertyList div {
+  border: 2px solid rgb(179, 131, 131);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.propertyListLog {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.propertyListLog div {
+  border: 2px solid rgb(179, 131, 131);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+
+  color: white;
+}
+
+.propertyList .btnProp {
+  background-color: rgb(182, 110, 110);
+  color: rgb(255, 255, 255);
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 15px;
+  font-size: larger;
+}
+
+.propertyListUpdated .btnProp {
+  background-color: rgb(182, 110, 110);
+  color: rgb(255, 255, 255);
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 15px;
+  font-size: larger;
+}
+
+.propertyListUpdated {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.propertyListUpdated div {
+  border: 2px solid rgb(179, 131, 131);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.propertyListNew {
+  display: flex;
+  flex-flow: row wrap;
+  width: 10%;
+  margin-inline: auto;
+}
+
+.propertyListNew {
+  border: 2px solid rgb(179, 131, 131);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 700px;
+  color: white;
+}
+
+.propertyUser {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.propertyUser div {
+  border: 2px solid rgb(179, 131, 131);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 350px;
+  color: white;
+}
+
+#statistics {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(207, 207, 4);
+}
+
+strong {
+  color: rgb(207, 207, 4);
+}
+
+.title {
+  color: rgb(179, 131, 131);
+  text-align: center;
+}
+
+#titleYellow {
+  color: yellow;
+}
+
+#tickBox {
+  margin-top: 45px;
+}
+
+#tickBoxText {
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.titl {
+  color: rgb(179, 131, 131);
+  text-align: center;
+  margin-top: 200px;
+}
+
+.titlNotFound {
+  color: rgb(179, 131, 131);
+  text-align: center;
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+#uniqueId {
+  color: rgb(240, 75, 75);
+}
